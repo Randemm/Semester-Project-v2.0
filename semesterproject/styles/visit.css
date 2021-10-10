@@ -14,7 +14,7 @@ main {
 	margin-left: 140px;
 }
 h4 {
-	color: #13152b;
+	color: var(--coal);
 	font-size: 50px;
 	text-transform: uppercase;
 	font-family: "OpenSansBold", sans-serif;
@@ -24,14 +24,14 @@ h5 {
 	font-family: "OpenSansBold", sans-serif;
 	font-size: 35px;
 	margin: 30px 0px 0px 0px;
-	color: #13152b;
+	color: var(--coal);
 }
 .breakliner {
 	border-width: 0px 0px 4px 0px;
 	border-style: solid;
 	width: 90%;
 	display: flex;
-	color: #2b98f0;
+	color: var(--altblue);
 }
 .content {
 	grid-area: con;
@@ -45,7 +45,7 @@ h5 {
 .subtext {
 	font-family: "OpenSansReg", sans-serif;
 	font-size: 20px;
-	color: #000;
+	color: var(--coal);
 	max-width: 80%;
 }
 .image {

@@ -12,27 +12,27 @@ main {
 	font-size: 50px;
 	margin: 20px 0px;
 	text-transform: uppercase;
-	color: #13152b;
+	color: var(--coal);
 }
 .breakliner {
 	border-width: 0px 0px 4px 0px;
 	border-style: solid;
 	width: 90%;
 	display: flex;
-	color: #2b98f0;
+	color: var(--altblue);
 }
 .subheader {
 	font-family: "OpenSansBold", sans-serif;
 	font-size: 30px;
 	margin: 10px 0px 0px 0px;
 	text-transform: uppercase;
-	color: #13152b;
+	color: var(--coal);
 }
 .subtext {
 	font-family: "OpenSansReg", sans-serif;
 	font-size: 20px;
 	line-height: 2;
-	color: #13152b;
+	color: var(--coal);
 	max-width: 80%;
 }
 .textgrid {

@@ -46,17 +46,17 @@ main {
   max-width: 400px;
   padding: 10px 0px;
   border-radius: 20px;
-  background-color: #2b98f0;
+  background-color: var(--altblue);
   -webkit-transition: 0.2s ease;
   -o-transition: 0.2s ease;
   transition: 0.2s ease;
 }
 .exheader:hover {
-  background-color: #005694;
+  background-color: var(--bluehov);
 }
 .linktag {
   text-decoration: none;
-  color: #fff;
+  color: var(--whiteout);
   text-align: center;
   -webkit-transition: 0.2s ease;
   -o-transition: 0.2s ease;

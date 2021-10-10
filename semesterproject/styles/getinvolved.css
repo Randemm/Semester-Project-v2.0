@@ -9,7 +9,7 @@ h4 {
 .headline {
 	font-family: "Audiowide", sans-serif;
 	font-size: 40px;
-	color: #13152b;
+	color: var(--coal);
 	margin: 15px;
 	display: block;
 	font-weight: bold;
@@ -59,7 +59,7 @@ h4 {
 .boxhead {
 	font-family: "OpenSansReg", sans-serif;
 	font-size: 30px;
-	color: #000;
+	color: var(--coal);
 	font-weight: normal;
 	display: inline;
 	max-width: 60%;
@@ -67,7 +67,7 @@ h4 {
 .subtext {
 	font-family: "OpenSansReg", sans-serif;
 	font-size: 20px;
-	color: #000;
+	color: var(--coal);
 	max-width: 60%;
 	display: inline-block;
 	margin-top: 50px;
