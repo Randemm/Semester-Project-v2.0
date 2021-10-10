@@ -128,13 +128,17 @@ h1.banner {
   background-color: var(--altblue);
   color: white;
 }
+.hamburgeractive {
+  background-color: var(--altblue);
+  color: #000;
+}
 .navbar {
   display: flex;
 }
 .navbar ul {
-  margin: 0px;
   display: flex;
   width: 100%;
+  margin: 0px;
   margin-top: 69px;
   justify-content: space-evenly;
 }
@@ -150,8 +154,6 @@ h1.banner {
 .navbar li a {
   font-weight: 600;
   color: var(--coal);
-  position: absolute;
-  bottom: 0;
   padding: 15px;
   font-size: 18px;
   -webkit-transition: 0.2s ease;
